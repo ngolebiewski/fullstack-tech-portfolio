@@ -1,9 +1,11 @@
 const Zinger = () => {
   return (
     <div className="bottom-line">
-      <h4 className="bump-it-over">Hello, i'm a full stack software engineer and visual artist. I'm passionate about connecting people through visual experiences.<br />
-      In case your wondering, my last name is pronounced "Go-wem-bee-ef-ski."<br />
-      Let's work together!</h4>
+      <div className="bump-it-over">
+        <p>Hello, i'm a full stack software engineer and visual artist. I'm passionate about connecting people through visual experiences.</p>
+        <p>In case your wondering, my last name is pronounced "Go-wem-bee-ef-ski."</p>
+        <p>Let's work together!</p>
+      </div>
     </div>
   )
 }

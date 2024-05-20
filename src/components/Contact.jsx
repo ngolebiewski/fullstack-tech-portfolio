@@ -3,7 +3,8 @@ const Contact = () => {
     <div id="contact" className="bottom-line">
       <div className="bump-it-over">
         <h1>Contact</h1>
-        <p className="hacker-font black-link"><a href="mailto:x@nickgolebiewski.com">x@nickgolebiewski.com</a> </p>
+        <p className="hacker-font blacklink"><a href="mailto:x@nickgolebiewski.com">x@nickgolebiewski.com</a> </p>
+        <br />
       </div>
     </div>
   )

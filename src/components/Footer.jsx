@@ -1,4 +1,4 @@
-const Footer = ({ oneLiner }) => {
+const Footer = () => {
   return (
     <footer>
       <div className="social-icons" id="socials">

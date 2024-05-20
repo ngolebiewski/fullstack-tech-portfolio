@@ -5,10 +5,15 @@ const Menu = () => {
   return (
     <header className="shadow-bottom hacker-font">
 
-      <div className="force-hacker-font bump-it-over">
+      <div className="bump-it-over">
         <Anchor
           direction="horizontal"
           items={[
+            {
+              key: 'top',
+              href: '#top',
+              title: 'Top',
+            },
             {
               key: 'portfolio',
               href: '#portfolio',
@@ -29,11 +34,7 @@ const Menu = () => {
               href: '#contact',
               title: 'Contact',
             },
-            {
-              key: 'top',
-              href: '#top',
-              title: 'Top',
-            },
+
           ]}
         />
       </div>

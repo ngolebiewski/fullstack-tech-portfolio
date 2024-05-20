@@ -65,14 +65,6 @@ body, html {
   padding-bottom: 50px;
 }
 
-.bg-image {
-  height: 100vh; 
-  width: 100vw; 
-  background-image: url("https://nickgolebiewski.com/wp-content/uploads/2014/06/Grand-Street-gouache1.jpg"); 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
 .hero-image {
   width:100%;
@@ -114,27 +106,21 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: baseline;
-}
-
-.sub-header {
-  display: flex;
-  justify-content: end;
-  background: black;
-}
-
-.sub-header > div > button:hover {
-  background: linear-gradient(217deg, rgba(255, 0, 255, 1), rgba(255,0,0,1) 70.71%),
-  linear-gradient(127deg, rgba(255,255,0,1), rgba(0,255,0,1) 70.71%),
-  linear-gradient(336deg, rgba(0,255,255,1), rgba(0,0,255,1) 70.71%);
-}
-
-
-.main-menu {
-  display: flex;
-  flex-direction: row;
-  margin-right: 5vw;
   flex-wrap: wrap;
 }
+
+.tech-bubble {
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 23%;
+  box-sizing: border-box;
+  min-height: 410px;
+  display: flex;
+  flex-direction: column;
+}
+
 
 footer {
   border-top: 6px solid black;
@@ -339,9 +325,22 @@ button:hover{
 }
 
 
+
+@media screen and (max-width: 1100px) {
+  .tech-bubble {
+    width: 46%;
+    min-height: auto;
+  }
+}
+
+
 @media screen and (max-width: 700px) {
   .art-card {
     width: 100%;
+  }
+  .tech-bubble {
+    width: 95%;
+    min-height: auto;
   }
   /* .hacker-font * {
     font-size: 2vh;

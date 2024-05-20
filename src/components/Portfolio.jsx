@@ -7,14 +7,16 @@ const Portfolio = () => {
         <section className="navigation">
 
           <article className="portfolio-item shadow-bottom">
-            <div className="hero-image">
-              <img src="https://github.com/Team-7-7/newTOZ/blob/main/public/assets/readme/toz_title_castle.png?raw=true" />
-            </div>
+            <a href="https://tower-of-zurpalen.onrender.com/" target="_blank">
+              <div className="hero-image">
+                <img src="/images/tower-of-zarpulen_titlescene.png" alt="Epic Video game castle with gothic text the tower of zurpalen" />
+              </div>
+            </a>
             <section className="portfolio-info">
               <h1 className="portfolio-title">The Tower of Zurpalen</h1>
 
               <div className="hacker-font"><p className="blacklink"><a href="https://github.com/Team-7-7/newTOZ" target="_blank">Code on GitHub</a></p></div>
-              <div className="hacker-font bottom-line"><p>Deployed on Render (Play!)</p></div>
+              <div className="hacker-font bottom-line"><p className="blacklink"><a href="https://tower-of-zurpalen.onrender.com/" target="_blank">Deployed on Render (Play! It takes a minute to load.)</a></p></div>
 
               <p>Role: Full-stack Developer, Game Designer, Pixel Artist, Animator </p>
               <p>Date: 1-2/2024</p>

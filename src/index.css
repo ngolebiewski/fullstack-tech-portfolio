@@ -165,7 +165,11 @@ h1 {
   font-family: "Major Mono Display", monospace;
   font-weight: 400;
   font-style: normal;
-  font-size: 5vh;
+  font-size: 4vh;
+}
+
+.title {
+  font-size: 6vh;
 }
 
 h2 { 
@@ -271,7 +275,7 @@ button:hover{
   flex-direction: column;
   flex-wrap: wrap;
   border: 5px solid yellow;
-  background-color: white;
+  background-color: yellow;
   margin: 10px 10px 10px 0px;
   width: 100%;
   padding: 10px;

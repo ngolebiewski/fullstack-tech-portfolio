@@ -92,6 +92,7 @@ header {
   width: 100%;
 }
 
+
 .bottom-line {
   border-bottom: 2px solid black;
 }
@@ -178,7 +179,7 @@ h1 {
   font-family: "Major Mono Display", monospace;
   font-weight: 400;
   font-style: normal;
-  font-size: 4vh;
+  font-size: 5vh;
 }
 
 h2 { 

@@ -18,6 +18,7 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  background-color: rgba(255,255,0,.9);
 }
 
 /* // <weight>: Use a value from 100 to 1000 */
@@ -91,7 +92,15 @@ header {
   width: 100%;
 }
 
+.bottom-line {
+  border-bottom: 2px solid black;
+}
+
 .navigation > h1 {
+  padding-left: 10px;
+}
+
+.bump-it-over {
   padding-left: 10px;
 }
 
@@ -232,7 +241,12 @@ button:hover{
   color: black;
 }
 
-
+.blacklink * > a:link,
+.blacklink * > a:hover,
+.blacklink * > a:visited,
+.blacklink * > a:focus {
+  color: black;
+}
 .button:hover{
   background: rgba(255, 255, 0, 1);
 }
@@ -328,4 +342,7 @@ button:hover{
   .art-card {
     width: 100%;
   }
+  /* .hacker-font * {
+    font-size: 2vh;
+  } */
 }

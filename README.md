@@ -4,8 +4,11 @@ Goal: Get this deployed in Less than one day!
 
 Tech used for this Single Page Application (including EVERYTHING!):
 
-- Vite
-- React
+- React: Frontend Framework 
 - JavaScript
-- Visual Studio Code
-- Terminal
+- CSS 
+- Google Fonts
+- Vite: "Next Generation Frontend Tooling" a.k.a. build and dev tool.
+- Visual Studio Code: Integrated Development Environment
+- Terminal: Command Line Interface
+- Ant Design: UI/UX LIbrary

@@ -6,29 +6,34 @@ const Menu = () => {
     <header className="shadow-bottom hacker-font">
       {/* <div className="navigation sub-header">
         <div className="main-menu shadow-bottom hacker-font"> */}
-        <div className="force-hacker-font">
+        <div className="force-hacker-font bump-it-over">
         <Anchor
         direction="horizontal"
         items={[
           {
-            key: 'part-1',
-            href: '#part-1',
+            key: 'portfolio',
+            href: '#portfolio',
             title: 'Portfolio',
           },
           {
-            key: 'part-2',
-            href: '#part-2',
+            key: 'tech',
+            href: '#tech',
             title: 'Tech',
           },
           {
-            key: 'part-3',
-            href: '#part-3',
+            key: 'about',
+            href: '#about',
             title: 'About',
           },
           {
             key: 'contact',
-            href: 'contact',
+            href: '#contact',
             title: 'Contact',
+          },
+          {
+            key: 'top',
+            href: '#top',
+            title: 'Top',
           },
         ]}
       />

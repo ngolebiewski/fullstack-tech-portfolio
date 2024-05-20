@@ -1,8 +1,8 @@
 const Zinger = () => {
   return (
-    <>
-      <h5 className="major-mono">Hello, i'm a full stack software engineer and visual artist. I'm passionate about connecting people through visual experiences. Let's work together!</h5>
-    </>
+    <div className="bottom-line">
+      <p className="bump-it-over">Hello, i'm a full stack software engineer and visual artist. I'm passionate about connecting people through visual experiences. Let's work together!</p>
+    </div>
   )
 }
 

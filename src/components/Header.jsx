@@ -2,19 +2,11 @@ import React from 'react';
 // import { Link } from 'react-router-dom';
 
 
-const Header = ({ pages, selectedPage, setSelectedPage, setPageObject, pageObject }) => {
-  const handlePageClick = (pageSlug, page) => {
-
-    setSelectedPage(pageSlug);
-    setPageObject({});
-    setPageObject(page);
-    console.log("selected page from Header.jsx: ", selectedPage);
-    console.log("selected page object from Header.jsx: ", pageObject);
-  };
+const Header = () => {
 
   return (
     <header className="shadow-bottom">
-      <div className="navigation">
+      <div className="navigation" id="top">
         <h1 className="major-mono">Nick Golebiewski</h1>
         {/* <div className="main-menu">
           {pages && pages.length > 0 ? (

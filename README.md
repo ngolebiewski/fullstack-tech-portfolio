@@ -2,7 +2,7 @@
 
 Goal: Get this designed, coded and deployed in less than one day!
 
-Deployed on Dreamhost Shared Server: http://tech.nickgolebiewski.com/
+Deployed on Dreamhost Shared Server: https://tech.nickgolebiewski.com/
 
 Tech used for this Single Page Application (including EVERYTHING!):
 
@@ -18,3 +18,6 @@ Tech used for this Single Page Application (including EVERYTHING!):
 
 Thanks!
 -Nick
+
+![Met Super Guesser](/public/images/met-super-guesser-pissaro.jpg)
+![Tower of Zurpalen](/public/images/tower-of-zarpulen_titlescene.jpg)

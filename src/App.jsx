@@ -1,11 +1,17 @@
-
+import Footer from './components/Footer'
+import Header from './components/Header'
+import Menu from './components/Menu'
+import Zinger from './components/Zinger'
 
 function App() {
 
 
   return (
     <>
-     <h1>Hello Tech Portfolio World</h1>
+      <Header />
+      <Menu />
+      <Zinger />
+      <Footer />
     </>
   )
 }

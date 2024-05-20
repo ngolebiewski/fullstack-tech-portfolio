@@ -28,13 +28,31 @@ const Portfolio = () => {
                 <li>Thought up the "Zurpalen" plot twist and coded the reveal animation</li>
               </ul>
             </section>
+          </article>
 
+          <article className="portfolio-item shadow-bottom">
+            <a href="https://met-super-guesser-beta.netlify.app/" target="_blank">
+              <div className="hero-image">
+                <img src="/images/met-super-guesser-pissaro.png" alt="Epic Video game castle with gothic text the tower of zurpalen" />
+              </div>
+            </a>
+            <section className="portfolio-info">
+              <h1 className="portfolio-title">Met Super Guesser</h1>
+
+              <div className="hacker-font"><p className="blacklink"><a href="https://github.com/ngolebiewski/Met-Super-Guesser" target="_blank">Code on GitHub</a></p></div>
+              <div className="hacker-font bottom-line"><p className="blacklink"><a href="https://met-super-guesser-beta.netlify.app/" target="_blank">Deployed on Netlify (Play!)</a></p></div>
+
+              <p>Role: Web Developer</p>
+              <p>Date: 11/2023</p>
+              <p>A multiple choice guessing game that utilizes the The Metropolitan Museum of Art API to pull random artworks from the Drawings and Prints, European Paintings, and Photography departments. Which artist made that artwork?</p>
+              <ul>
+                <li>Fetched data from the Met’s public API using Javascript Async/Await and randomly selected artworks.</li>
+                <li>Used Javascript to randomly sort the randomly selected artworks choices using the Fisher Yates Algorithm.</li>
+              </ul>
+            </section>
           </article>
 
         </section>
-
-
-
       </div >
     </div >
   )

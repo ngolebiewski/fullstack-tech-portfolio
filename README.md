@@ -15,3 +15,6 @@ Tech used for this Single Page Application (including EVERYTHING!):
 - Terminal: Command Line Interface
 - Ant Design: UI/UX Library
 - Gulp: Upload to Dreamhost Server
+
+Thanks!
+-Nick

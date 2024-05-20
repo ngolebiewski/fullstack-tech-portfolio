@@ -9,7 +9,7 @@ const Portfolio = () => {
           <article className="portfolio-item shadow-bottom">
             <a href="https://tower-of-zurpalen.onrender.com/" target="_blank">
               <div className="hero-image">
-                <img src="/images/tower-of-zarpulen_titlescene.png" alt="Epic Video game castle with gothic text the tower of zurpalen" />
+                <img src="/images/tower-of-zarpulen_titlescene.jpg" alt="Epic Video game castle with gothic text the tower of zurpalen" />
               </div>
             </a>
             <section className="portfolio-info">
@@ -33,7 +33,7 @@ const Portfolio = () => {
           <article className="portfolio-item shadow-bottom">
             <a href="https://met-super-guesser-beta.netlify.app/" target="_blank">
               <div className="hero-image">
-                <img src="/images/met-super-guesser-pissaro.png" alt="Epic Video game castle with gothic text the tower of zurpalen" />
+                <img src="/images/met-super-guesser-pissaro.jpg" alt="Epic Video game castle with gothic text the tower of zurpalen" />
               </div>
             </a>
             <section className="portfolio-info">

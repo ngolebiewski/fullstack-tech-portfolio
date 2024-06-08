@@ -16,7 +16,7 @@ Tech used for this Single Page Application (including EVERYTHING!):
 - Visual Studio Code: Integrated Development Environment
 - Terminal: Command Line Interface
 - Ant Design: UI/UX Library --> Their anchor animation.
-- Social Media logos, some from Bootstrap CSS, Patreomn and Etsy from their logo asset pages.
+- Social Media logos, some from Bootstrap CSS, Patreon and Etsy from their logo asset pages.
 - Gulp: Upload to Dreamhost Server. So Legacy! After you "npm run build" you can "npx gulp deploy" and voila.
 
 Thanks!

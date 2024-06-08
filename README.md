@@ -17,7 +17,7 @@ Tech used for this Single Page Application (including EVERYTHING!):
 - Terminal: Command Line Interface
 - Ant Design: UI/UX Library --> Their anchor animation.
 - Social Media logos, some from Bootstrap CSS, Patreomn and Etsy from their logo asset pages.
-- Gulp: Upload to Dreamhost Server. So Legacy!
+- Gulp: Upload to Dreamhost Server. So Legacy! After you "npm run build" you can "npx gulp deploy" and voila.
 
 Thanks!
 -Nick

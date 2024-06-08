@@ -16,8 +16,9 @@ const About = () => {
           I love saying that at the start of all of the art workshops that I lead, where I encourage participants to spend time looking at the world around us in a different way. These workshops are based on my drawing-a-day project, where I haven’t missed a day in 10 years! It’s been shared by the Whitney Museum, Met Museum, Central Park, National Park Service, Jewish Museum and more.
         </p><p>
           I bicycle to get nearly everywhere, in every season, including to my art studio in the Brooklyn Navy Yard, and have fixed more than 100 flat tires in NYC.
-        </p><p>
-          Get in touch about planning a project together that’s in the intersection of coding and visual experience.</p>
+        </p>
+        <p> Get in touch about planning a project together that’s in the intersection of coding and visual experience.</p>
+        <p className="blacklink"><a href="https://github.com/ngolebiewski/fullstack-tech-portfolio" target="_blank">* Check out this page's code on GitHub. *</a></p>
       </div>
     </div>
   )

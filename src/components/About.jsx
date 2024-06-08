@@ -3,7 +3,8 @@ const About = () => {
     <div id="about" className="bottom-line">
       <div className="bump-it-over">
         <h1>About</h1>
-        <p>I’m a visual artist, full stack software engineer, and NYC tour guide. I’m passionate about making human oriented experiences that are accessible to all.
+        <p>
+          I’m a visual artist, full stack software engineer, and NYC tour guide. I’m passionate about making human oriented experiences that are accessible to all.
         </p><p>
           As a software developer, I code in JavaScript, React, Node.js, HTML, CSS and Python — and could probably even remember BASIC from my Commodore 64 game-playing days.
         </p><p>
@@ -18,7 +19,7 @@ const About = () => {
           I bicycle to get nearly everywhere, in every season, including to my art studio in the Brooklyn Navy Yard, and have fixed more than 100 flat tires in NYC.
         </p>
         <p> Get in touch about planning a project together that’s in the intersection of coding and visual experience.</p>
-        <p className="blacklink"><a href="https://github.com/ngolebiewski/fullstack-tech-portfolio" target="_blank">* Check out this page's code on GitHub. *</a></p>
+        <p className="blacklink underliner"><a href="https://github.com/ngolebiewski/fullstack-tech-portfolio" target="_blank">* Check out this page's code on GitHub. *</a></p>
       </div>
     </div>
   )

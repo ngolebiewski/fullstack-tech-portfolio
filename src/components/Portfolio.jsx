@@ -7,7 +7,6 @@ const Portfolio = () => {
         <section className="navigation">
 
           <article className="portfolio-item shadow-bottom">
-            {/* <a href="https://tower-of-zurpalen.onrender.com/" target="_blank"> */}
             <a href="https://tower-of-zurpalen.onrender.com/" target="_blank">
               <div className="hero-image">
                 <img src="https://github.com/ngolebiewski/fullstack-tech-portfolio/raw/main/public/images/tower-of-zarpulen_titlescene.jpg" alt="Epic Video game castle with gothic text the tower of zurpalen" />

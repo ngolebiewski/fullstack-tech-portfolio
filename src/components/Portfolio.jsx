@@ -42,7 +42,7 @@ const Portfolio = () => {
               <div className="hacker-font"><p className="blacklink"><a href="https://github.com/ngolebiewski/Met-Super-Guesser" target="_blank">Code on GitHub</a></p></div>
               <div className="hacker-font bottom-line"><p className="blacklink"><a href="https://met-super-guesser-beta.netlify.app/" target="_blank">Deployed on Netlify (Play!)</a></p></div>
 
-              <p>Role: Web Developer</p>
+              <p>Role: Software Engineer</p>
               <p>Date: 11/2023</p>
               <p>A multiple choice guessing game that utilizes the The Metropolitan Museum of Art API to pull random artworks from the Drawings and Prints, European Paintings, and Photography departments. Which artist made that artwork?</p>
               <ul>
@@ -72,6 +72,31 @@ const Portfolio = () => {
                 <li>Live interactions via socket.io and its implementation of websockets.</li>
                 <li>Draw polygonal art via p5.js a.k.a Processing.</li>
                 <li>Put in Howler.js for the sound library.</li>
+              </ul>
+            </section>
+          </article>
+
+          <article className="portfolio-item shadow-bottom">
+            <a href="https://nycknights.com/" target="_blank">
+              <div className="hero-image">
+                <img src="https://github.com/ngolebiewski/fullstack-tech-portfolio/raw/main/public/images/NYC-Knights-screenshot.jpg" alt="School chess club website screenshot" />
+              </div>
+            </a>
+            <section className="portfolio-info">
+              <h1 className="portfolio-title">NYC Knights Website</h1>
+
+              <div className="hacker-font"><p className="blacklink"><a href="https://github.com/ngolebiewski/nyc-knights" target="_blank">Code on GitHub</a></p></div>
+              <div className="hacker-font bottom-line"><p className="blacklink"><a href="https://nycknights.com" target="_blank">Deployed on Wordpress.com</a></p></div>
+
+              <p>Role: Web Developer</p>
+              <p>Date: 6/2024</p>
+              <p>Redesigned and redeveloped the WordPress website for the PS 41 "The Greenwich Village School" chess club and team.
+                Created a new child theme and design to replace the outdated PHP 7.4 theme, ensuring compatibility with PHP 8.x
+                while maintaining the existing content.
+              </p>
+              <ul>
+                <li>Set up a test server to develop the new theme without disrupting the live site.</li>
+                <li>Authored a detailed README for the child theme on GitHub, facilitating future development and maintenance.</li>
               </ul>
             </section>
           </article>

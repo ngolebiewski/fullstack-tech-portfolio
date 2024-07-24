@@ -22,5 +22,7 @@ Tech used for this Single Page Application (including EVERYTHING!):
 Thanks!
 -Nick
 
+# Portfolio items
 ![Met Super Guesser](/public/images/met-super-guesser-pissaro.jpg)
 ![Tower of Zurpalen](/public/images/tower-of-zarpulen_titlescene.jpg)
+![Soundscaper](/public/images/soundscaper-web.gif)

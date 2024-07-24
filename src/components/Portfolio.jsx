@@ -52,6 +52,31 @@ const Portfolio = () => {
             </section>
           </article>
 
+
+          <article className="portfolio-item shadow-bottom">
+            <a href="https://socket-sound-sharer.onrender.com/" target="_blank">
+              <div className="hero-image">
+                <img src="https://github.com/ngolebiewski/fullstack-tech-portfolio/raw/main/public/images/soundscaper-web.gif" alt="animation of 3d polygonal object from a screenshot" />
+              </div>
+            </a>
+            <section className="portfolio-info">
+              <h1 className="portfolio-title">Sonic Soundscaper</h1>
+
+              <div className="hacker-font"><p className="blacklink"><a href="https://github.com/ngolebiewski/socket-sound-sharer" target="_blank">Code on GitHub</a></p></div>
+              <div className="hacker-font bottom-line"><p className="blacklink"><a href="https://socket-sound-sharer.onrender.com/" target="_blank">Deployed on Render</a></p></div>
+
+              <p>Role: Software Engineer, Creative Coder</p>
+              <p>Date: 7/2024</p>
+              <p>A collaborative soundscape and art generation app. When you play a sound, it activates that sound for all users online at that moment in time. Make some noise (Turn silent-mode off!). Pro-tip: Try this in two browser windows for full drawing effects.</p>
+              <ul>
+                <li>Live interactions via socket.io and its implementation of websockets.</li>
+                <li>Draw polygonal art via p5.js a.k.a Processing.</li>
+                <li>Put in Howler.js for the sound library.</li>
+              </ul>
+            </section>
+          </article>
+
+
         </section>
       </div >
     </div >

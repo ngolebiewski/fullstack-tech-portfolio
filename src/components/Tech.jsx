@@ -25,6 +25,8 @@ const Tech = () => {
               <li>Bootstrap CSS</li>
               <li>Tailwind CSS</li>
               <li>Ant Design</li>
+              <li>Material UI</li>
+              <li>p5.js</li>
             </ul>
           </article>
 
@@ -34,6 +36,7 @@ const Tech = () => {
               <li>Node.js</li>
               <li>Express</li>
               <li>Express Router</li>
+              <li>Socket.io</li>
               <li>Rest API</li>
               <li>PostgreSQL</li>
               <li>MySQL</li>

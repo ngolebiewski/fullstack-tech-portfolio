@@ -4,7 +4,7 @@ const Tech = () => {
       <div className="bump-it-over">
 
         <h1>Technologies</h1>
-        <section className="navigation">
+        <section className="navigation-tech">
 
           <article className="tech-bubble shadow-bottom">
             <h2 className="major-mono">Languages:</h2>

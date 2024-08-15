@@ -102,6 +102,33 @@ const Portfolio = () => {
           </article>
 
 
+          <article className="portfolio-item shadow-bottom">
+            <a href="https://keywordify.onrender.com/" target="_blank">
+              <div className="hero-image">
+                <img src="https://github.com/ngolebiewski/fullstack-tech-portfolio/raw/main/public/images/keywordify-animation.gif" alt="IBM-esque font spelling out Keywordify on this screenshot gif, keywords in resume and not in resume with count, a circle graph representing those words, repeat forever" />
+              </div>
+            </a>
+            <section className="portfolio-info">
+              <h1 className="portfolio-title">Keywordify</h1>
+
+              <div className="hacker-font"><p className="blacklink"><a href="https://github.com/ngolebiewski/keywordify" target="_blank">Code on GitHub</a></p></div>
+              <div className="hacker-font bottom-line"><p className="blacklink"><a href="https://keywordify.onrender.com/" target="_blank">Deployed on Render</a></p></div>
+
+              <p>Role: Software Engineer</p>
+              <p>Date: 8/2024</p>
+              <p>I wanted to do a project with Python and learn Flask. Keywordify is an app for a software engineer's job search that compares the tech keywords in a job description and their 
+                resume. Just save a resume and a job description as .txt files and upload. With the results, green for IN and red for OUT, you can get a sense of how well suited you are and your resume is. 
+                Also, I wanted to try Plotly, the sunburst graph provides a graphic represenation of keywords in and out of the resume. Perhaps this will help you get through the ATS and onto a hirer's desk.
+              </p>
+              <ul>
+                <li>Uses: Python, Flask and Plotly</li>
+                <li>The Python code 'sanitizes' the txt files to prevent injection attacks.</li>
+                <li>For privacy, I wrote Python code to delete the email address and phone number from uploaded resumes using a ridiulously long Regular Expression</li>
+              </ul>
+            </section>
+          </article>
+
+
         </section>
       </div >
     </div >

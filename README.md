@@ -26,3 +26,5 @@ Thanks!
 ![Met Super Guesser](/public/images/met-super-guesser-pissaro.jpg)
 ![Tower of Zurpalen](/public/images/tower-of-zarpulen_titlescene.jpg)
 ![Soundscaper](/public/images/soundscaper-web.gif)
+![NYC Knights](public/images/NYC-Knights-screenshot.jpg)
+![Keywordify](public/images/keywordify-animation.gif)

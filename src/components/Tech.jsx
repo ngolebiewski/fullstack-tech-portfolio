@@ -34,6 +34,7 @@ const Tech = () => {
             <h2 className="major-mono">Back End:</h2>
             <ul>
               <li>Node.js</li>
+              <li>Flask</li>
               <li>Express</li>
               <li>Express Router</li>
               <li>Socket.io</li>

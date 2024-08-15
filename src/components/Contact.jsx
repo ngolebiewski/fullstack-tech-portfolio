@@ -5,9 +5,11 @@ const Contact = () => {
         <h1>Contact</h1>
         <p className="hacker-font blacklink"><a href="mailto:x@nickgolebiewski.com">x@nickgolebiewski.com</a> </p>
         <br />
-        <img src="https://keywordify.onrender.com/static/16bit-dot.png" alt="Keywordify dot" />
-        <img src="https://tower-of-zurpalen.onrender.com/assets/titlePage/warrior.png" alt="warrior from tower of zurpalen" width="auto" height="32px"/>
-        <img src="https://socket-sound-sharer.onrender.com/green-triangle-thing.png" alt="green triangle from sonic sound sharer" width="auto" height="32px"/>
+        <a href="https://keywordify.onrender.com/" target="_blank"><img src="https://keywordify.onrender.com/static/16bit-dot.png" alt="Keywordify dot" /></a>
+        <a href="https://tower-of-zurpalen.onrender.com" target="_blank"><img src="https://tower-of-zurpalen.onrender.com/assets/titlePage/warrior.png" alt="warrior from tower of zurpalen" width="auto" height="32px"/></a>
+        <a href="https://socket-sound-sharer.onrender.com" target="_blank"><img src="https://socket-sound-sharer.onrender.com/green-triangle-thing.png" alt="green triangle from sonic sound sharer" width="auto" height="32px"/></a>
+        <a href="https://dnd-spell-checker.netlify.app" target="_blank"><img src="https://dnd-spell-checker.netlify.app/dragon3a.ico" alt="Dungeons and Dragons Spell Checker icon" width="auto" height="32px"/></a>
+        
 
       </div>
     </div>

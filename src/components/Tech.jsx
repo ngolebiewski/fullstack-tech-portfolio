@@ -27,6 +27,7 @@ const Tech = () => {
               <li>Ant Design</li>
               <li>Material UI</li>
               <li>p5.js</li>
+              <li>Phaser3</li>
             </ul>
           </article>
 
@@ -35,12 +36,14 @@ const Tech = () => {
             <ul>
               <li>Node.js</li>
               <li>Flask</li>
+              <li>FastAPI</li>
               <li>Express</li>
               <li>Express Router</li>
               <li>Socket.io</li>
               <li>Rest API</li>
               <li>PostgreSQL</li>
               <li>MySQL</li>
+              <li>SQLite</li>
               <li>Prisma ORM</li>
               <li>BCrypt</li>
               <li>Axios</li>
@@ -50,9 +53,10 @@ const Tech = () => {
           <article className="tech-bubble shadow-bottom">
             <h2 className="major-mono">Everything Else:</h2>
             <ul>
-              <li>Phaser3</li>
               <li>Git</li>
               <li>GitHub</li>
+              <li>Docker</li>
+              <li>PyTest</li>
               <li>Vite</li>
               <li>Visual Studio Code</li>
               <li>Figma</li>
@@ -64,6 +68,7 @@ const Tech = () => {
               <li>Gulp</li>
               <li>SSH/SFTP</li>
               <li>CORS</li>
+              <li>Accessibility</li>
             </ul>
           </article>
 

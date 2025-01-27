@@ -26,6 +26,7 @@ const Portfolio = () => {
                 <li>Implemented Redux to manage state, wrote Redux thunks to handle API calls within the Phaser framework.</li>
                 <li>Wrote the REST API endpoints, and middleware to authenticate JSON Web Tokens</li>
                 <li>Thought up the "Zurpalen" plot twist and coded the reveal animation</li>
+                <li>Designed the database schema, and implemented in PostgreSQL via Prisma ORM.</li>
               </ul>
             </section>
           </article>
@@ -116,18 +117,57 @@ const Portfolio = () => {
 
               <p>Role: Software Engineer</p>
               <p>Date: 8/2024</p>
-              <p>I wanted to do a project with Python and learn Flask. Keywordify is an app for a software engineer's job search that compares the tech keywords in a job description and their 
-                resume. Just save a resume and a job description as .txt files and upload. With the results, green for IN and red for OUT, you can get a sense of how well suited you are and your resume is. 
+              <p>I wanted to do a project with Python and learn Flask. Keywordify is an app for a software engineer's job search that compares the tech keywords in a job description and their
+                resume. Just save a resume and a job description as .txt files and upload. With the results, green for IN and red for OUT, you can get a sense of how well suited you are and your resume is.
                 Also, I wanted to try Plotly, the sunburst graph provides a graphic represenation of keywords in and out of the resume. Perhaps this will help you get through the ATS and onto a hirer's desk.
               </p>
               <ul>
-                <li>Uses: Python, Flask and Plotly</li>
+                <li>Tech: Python, Flask and Plotly</li>
                 <li>The Python code 'sanitizes' the txt files to prevent injection attacks.</li>
-                <li>For privacy, I wrote Python code to delete the email address and phone number from uploaded resumes using a ridiulously long Regular Expression</li>
+                <li>For privacy, I wrote Python code to delete the email address and phone number from uploaded resumes using a Regular Expression.</li>
               </ul>
             </section>
           </article>
 
+          <article className="portfolio-item shadow-bottom">
+            <a href="https://youtu.be/uLlSjLck_xE?si=j3ODsNumPi0T2cP2" target="_blank">
+              <div className="hero-image">
+                <img src="https://github.com/ngolebiewski/fullstack-tech-portfolio/raw/main/public/images/sol_296.jpg" alt="Screenshot: Black and White image of mast cam from mars rover on left, grid of blue and red sqaures on right." />
+
+                {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/uLlSjLck_xE?si=laSEqbipM4cjzO5C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
+
+                {/* <div class="iframe-container">
+                  <iframe
+                    src="https://www.youtube.com/embed/uLlSjLck_xE?si=laSEqbipM4cjzO5C"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+                  </iframe>
+                </div> */}
+
+              </div>
+            </a>
+            <section className="portfolio-info">
+              <h1 className="portfolio-title">SkyCam: Flicker</h1>
+
+              {/* <div className="hacker-font"><p className="blacklink"><a href="https://github.com/ngolebiewski/keywordify" target="_blank">Code on GitHub</a></p></div> */}
+              <div className="hacker-font bottom-line"><p className="blacklink"><a href="https://youtu.be/uLlSjLck_xE?si=j3ODsNumPi0T2cP2" target="_blank">View on YouTube</a></p></div>
+
+              <p>Role: Creative Coder</p>
+              <p>Date: 11/2024</p>
+              <p>I wrote a Python script to get and animate images from NASA's Perseverance Rover's SkyCam.
+                The images flicker past (watch the sun bounce back and forth, and change angle over time), reminiscent of Super 8 film from the 1960s -- like our first moving views from the moon.
+                At the same time, the code is making a blue/red colored-in grid. Each square is based on whether that image from Mars is above or below the average image brightness of all the Sols' images.
+                Mars is painting a picture for us.
+                The title references Tony Conrad's 'The Flicker', and the the content references his <a href="https://en.wikipedia.org/wiki/The_Flicker#/media/File:Tony_Conrad_-_The_Flicker_exposure_timing_sheet.png" target="_blank">design</a> for the film.
+              </p>
+              <ul>
+                <li>Tech: Python, PILLOW, OpenCV, Numpy, Open source data from NASA</li>
+              </ul>
+            </section>
+          </article>
 
         </section>
       </div >

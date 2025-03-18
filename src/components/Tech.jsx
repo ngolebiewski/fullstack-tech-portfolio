@@ -11,6 +11,7 @@ const Tech = () => {
             <ul>
               <li>Javascript</li>
               <li>Python</li>
+              <li>Go</li>
             </ul>
           </article>
 

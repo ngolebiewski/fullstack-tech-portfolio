@@ -155,7 +155,7 @@ const Portfolio = () => {
               {/* <div className="hacker-font"><p className="blacklink"><a href="https://github.com/ngolebiewski/keywordify" target="_blank">Code on GitHub</a></p></div> */}
               <div className="hacker-font bottom-line"><p className="blacklink"><a href="https://youtu.be/uLlSjLck_xE?si=j3ODsNumPi0T2cP2" target="_blank">View on YouTube</a></p></div>
 
-              <p>Role: Creative Coder</p>
+              <p>Role: Creative Technologist</p>
               <p>Date: 11/2024</p>
               <p>I wrote a Python script to get and animate images from NASA's Perseverance Rover's SkyCam.
                 The images flicker past (watch the sun bounce back and forth, and change angle over time), reminiscent of Super 8 film from the 1960s -- like our first moving views from the moon.

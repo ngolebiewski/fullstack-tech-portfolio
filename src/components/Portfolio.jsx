@@ -169,6 +169,53 @@ const Portfolio = () => {
             </section>
           </article>
 
+
+          <article className="portfolio-item shadow-bottom">
+            <a href="https://turtle-encoder.onrender.com/" target="_blank" rel="noopener noreferrer">
+              <div className="hero-image">
+                <img
+                  src="https://raw.githubusercontent.com/ngolebiewski/next-art-portfolio/refs/heads/main/public/images/tech-projects/turtle_encoder.jpg"
+                  alt="Conceptual art project encoding secret messages with student-painted turtles."
+                />
+              </div>
+            </a>
+            <section className="portfolio-info">
+              <h1 className="portfolio-title">Turtle Encoder</h1>
+              <div className="hacker-font">
+                <p className="blacklink">
+                  <a href="https://github.com/ngolebiewski/turtle_code_python" target="_blank" rel="noopener noreferrer">
+                    Code on GitHub
+                  </a>
+                </p>
+              </div>
+              <div className="hacker-font bottom-line">
+                <p className="blacklink">
+                  <a href="https://turtle-encoder.onrender.com/" target="_blank" rel="noopener noreferrer">
+                    Deployed on Render
+                  </a>
+                </p>
+              </div>
+              <p>Role: Artist, Project Lead, Software Engineer</p>
+              <p>Date: 2025-03-17</p>
+              <p>
+                Led a 5th-grade class in a conceptual art project that encoded secret messages within an array of student-painted turtle images. The project explored representing information, converting letters to binary code, with turtles and their orientations representing 0s and 1s. Developed both a React/JavaScript web demo and a Python CLI script.
+                  
+                <br /><br />
+                Read more about the Turtle Encoder in the article I wrote on <a href="https://medium.com/@x_48243/turtle-power-or-an-introduction-to-creating-secret-messages-through-art-and-code-2e6803af0ad2">Medium</a>
+              </p>
+              <ul>
+                <li>React</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>Pillow</li>
+                <li>Photoshop</li>
+              </ul>
+            </section>
+          </article>
+
+
+
+
         </section>
       </div >
     </div >
